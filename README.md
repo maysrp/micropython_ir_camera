@@ -1,7 +1,7 @@
 # micropython_ir_camera
 GY-mcu90640 st7735 128x160 esp32c3 micropython 
 
-合宙ESP32C3  
+合宙ESP32C3  （含串口模块的）烧录固件 
 
 合宙ST7735 128x160 LCD  
 
