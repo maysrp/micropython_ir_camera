@@ -1,14 +1,17 @@
 # micropython_ir_camera
 GY-mcu90640 st7735 128x160 esp32c3 micropython 
 
-合宙ESP32C3  （含串口模块的）烧录固件 
+合宙ESP32C3  （含串口模块的）烧录固件 c3_uart.bin 
 
 合宙ST7735 128x160 LCD  
 
 GY-MCU90640  
 
 ### 准备
-首先修改gy-mcu90640的波特率，默认为115200，4HZ，需要修改为460800，8HZ,且修改完断电就可以使用了。
+
+合宙ESP32C3  （含串口模块的）烧录固件 ：c3_uart.bin 
+
+修改gy-mcu90640的波特率，默认为115200，4HZ，需要修改为460800，8HZ,且修改完断电就可以使用了。
 |GY-MCU90640|合宙ESP32C3  |
 |-|-|
 |TX|8|
