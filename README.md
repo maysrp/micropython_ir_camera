@@ -7,7 +7,7 @@ GY-mcu90640 st7735 128x160 esp32c3 micropython
 
 GY-MCU90640  
 
-
+### 准备
 首先修改gy-mcu90640的波特率，默认为115200，4HZ，需要修改为460800，8HZ,且修改完断电就可以使用了。
 |GY-MCU90640|合宙ESP32C3  |
 |-|-|
@@ -16,6 +16,7 @@ GY-MCU90640
 |5v|5v|
 |GND|GND|
 
+执行下面代码
 
 ```
 from machine import UART
@@ -37,6 +38,7 @@ u.write(b'\xa5\x65\x01\x0b')
 ```
 
 
+### 使用
 
 |GY-MCU90640|合宙ESP32C3  |合宙ST7735|
 |-|-|-|
